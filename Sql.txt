@@ -1,0 +1,12 @@
+create database Bank;
+Use Bank;
+create table Account_Details(Account_Number int primary key, Customer_Name varchar(30), Current_Balance int, Last_Deposit date, Last_Withdrawal date, Mobile_Number int, Email_ID varchar(30));
+insert into account_details values(63682534,'Eva',80000,'2023-07-01','2023-07-08',0503214569,'eva@gmail.com');
+insert into account_details values(19750627,'Alex',59000,'2023-07-03','2023-07-08',0509853224,'alex@gmail.com');
+insert into account_details values(75172505,'Lucy',89500,'2023-07-04','2023-07-09',0502461323,'lucy@gmail.com');
+insert into account_details values(44038725,'Bruce',230000,'2023-07-06','2023-07-11',0509855472,'bruce@gmail.com');
+insert into account_details values(12206441,'Ryan',65000,'2023-07-06','2023-07-19',0502322345,'ryan@gmail.com');
+insert into account_details values(96544943,'Chris',75400,'2023-07-15','2023-07-21',0506699785,'chris@gmail.com');
+insert into account_details values(94603249,'Robert',48500,'2023-07-18','2023-07-24',0503264585,'robert@gmail.com');
+insert into account_details values(34768726,'Scarlett',84000,'2023-07-24','2023-07-28',0502314562,'scarlett@gmail.com');
+insert into account_details values(75947562,'Robin',62000,'2023-07-25','2023-07-30',0503215684,'robin@gmail.com');
